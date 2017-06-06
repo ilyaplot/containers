@@ -1,6 +1,6 @@
 {
   "name": "ilyaplot/containers",
-  "description": "Simpla containers package",
+  "description": "Simple containers package",
   "keywords": ["container", "config", "helper"],
   "type": "extension",
   "license": "MIT",
