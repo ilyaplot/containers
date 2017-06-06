@@ -29,7 +29,7 @@ echo $container->value1; // 200
 echo $container['value1']; // 200
 
 foreach ($container as $key=>$value) {
-  echo $key . ':' . $value; // value:100 and value:200
+  echo $key . ':' . $value; // value:100 and value2:200
 }
 
 echo count($container); // 2
