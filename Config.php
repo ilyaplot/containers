@@ -50,7 +50,7 @@ class Config extends Container
      * @return array
      * @throws ContainerException
      */
-    protected function readConfig($configFilename, $isConfigRequired) :array
+    protected function readConfig($configFilename, $isConfigRequired) //:array
     {
         if (!file_exists($configFilename) || !is_readable($configFilename)) {
             if ($isConfigRequired) {

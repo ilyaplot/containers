@@ -128,7 +128,7 @@ class Container implements \ArrayAccess, \Countable, \IteratorAggregate
      * @return \ArrayIterator
      * IteratorAggregate (foreach support)
      */
-    public function getIterator() :\ArrayIterator
+    public function getIterator() //:\ArrayIterator
     {
         return new \ArrayIterator($this->_attributes);
     }
