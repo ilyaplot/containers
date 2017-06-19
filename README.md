@@ -1,5 +1,10 @@
 # Containers extensions
 
+[![GitHub tag](https://img.shields.io/github/tag/ilyaplot/containers.svg)](https://github.com/ilyaplot/containers)
+[![Packagist](https://img.shields.io/packagist/dt/ilyaplot/yii2-key-helper.svg)](https://packagist.org/packages/ilyaplot/containers)
+[![Packagist](https://img.shields.io/packagist/l/ilyaplot/yii2-key-helper.svg)](https://packagist.org/packages/ilyaplot/containers)
+[![GitHub issues](https://img.shields.io/github/issues/ilyaplot/yii2-key-helper.svg)](https://github.com/ilyaplot/containers/issues)
+
 
 Installation 
 ------------------------------------
@@ -29,7 +34,7 @@ echo $container->value1; // 200
 echo $container['value1']; // 200
 
 foreach ($container as $key=>$value) {
-  echo $key . ':' . $value; // value:100 and value2:200
+  echo $key . ':' . $value; // value:100 and value1:200
 }
 
 echo count($container); // 2
