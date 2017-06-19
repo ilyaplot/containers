@@ -73,7 +73,7 @@ class Container implements \ArrayAccess, \Countable, \IteratorAggregate
     /**
      * @return string
      */
-    public function __toString() :string
+    public function __toString() //:string
     {
         return json_encode($this->_attributes, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
     }
