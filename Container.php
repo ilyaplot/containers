@@ -44,7 +44,7 @@ class Container implements \ArrayAccess, \Countable, \IteratorAggregate
      * @param $name
      * @return bool
      */
-    public function __isset($name) :bool
+    public function __isset($name) //:bool
     {
         return isset($this->_attributes[$name]);
     }
